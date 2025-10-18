@@ -31,16 +31,16 @@ Follow these steps to set up the full MEVN environment:
 
 1. Backend Setup (Node.js/Express)
 Navigate to the server directory (e.g., /server or root if using the single-folder structure):
-# Install server-side dependencies (Express, Mongoose, nodemon, etc.)
+#Install server-side dependencies (Express, Mongoose, nodemon, etc.)
 npm install
-# Start the backend server with nodemon for live reload
-# This is the command used to run the Express API:
+#Start the backend server with nodemon for live reload
+#This is the command used to run the Express API:
 npx nodemon server.js
 
 2. Frontend Setup (Vue.js)
 Navigate to the client directory (e.g., /client):
-# Install client-side dependencies (Vue, Vue-router, Tailwind dependencies)
+#Install client-side dependencies (Vue, Vue-router, Tailwind dependencies)
 npm install
-# Start the Vue development server (typically on port 8080 or 5173)
-# This command runs the Vite/Vue CLI development server:
+#Start the Vue development server (typically on port 8080 or 5173)
+#This command runs the Vite/Vue CLI development server:
 npm run dev
